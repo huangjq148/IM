@@ -1,0 +1,19 @@
+
+.container {
+    .add-btn{
+        height: 40px;
+        width: 40px;
+        line-height: 40px;
+        border: 1px dotted gray;
+        cursor: pointer;
+        margin: auto;
+        margin-top: 10px;
+        border-radius: 50%;
+        font-size: 40px;
+        color: #b3abab;
+        &:hover{
+            background: #b5b5b5;
+            color: white;
+        }
+    }
+}

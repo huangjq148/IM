@@ -1,0 +1,23 @@
+.login-page{
+    height: 100vh;
+    background-image: radial-gradient(#eacbcb, #717cef, #9198e5);
+    .form-wrap{
+        height: 300px;
+        width: 450px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-left: -225px;
+        margin-top: -150px;
+        background-color: RGBA(255,255,255,0.2);
+        box-shadow: 1px 1px 5px #8e8e8e;
+        border-radius: 10px;
+
+        .title{
+            font-size: 32px;
+            margin: 30px;
+            color: #fefefe;
+        }
+    }
+
+}

@@ -1,0 +1,36 @@
+
+    .active {
+        background-color: #bbb9b9;
+    }
+    .chat-list {
+        display: flex;
+        .content{
+            text-align: left;
+            width: calc( 100% - 90px );
+            p{
+                max-width: 80%;
+                white-space:nowrop;
+                text-overflow: ellipsis;
+                overflow: hidden;
+            }
+        }
+        .avatar-wrap {
+            width: 90px;
+            height: 90px;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+
+            img {
+                display: inline-block;
+                width: 60px;
+                height: 60px;
+                margin: 15px;
+            }
+        }
+        &:hover {
+            cursor: pointer;
+            background-color: #d2d2d2;
+        }
+    }
